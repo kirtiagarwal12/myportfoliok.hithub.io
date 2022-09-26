@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(180, 175, 175);
+    width: 434px;
+    height: 100vh;
+}
+
+.sidebar nav{
+padding: 40px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 35px;
+    padding-top: 10px ;
+    padding-bottom: 33px;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    /* background-color: blueviolet; */
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.infoContainer{
+    /* background-color: aqua; */
+    height: 50vh;
+    width:45vw ;
+    margin: 144px auto;
+    display: flex;
+
+}
+
+.devPic img{
+    padding-left: 80px;
+    height: 50vh;
+justify-content: space-around;
+}
+
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello{
+    font-size: 60px;
+}
+
+.name{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.about{
+    font-size: 40px;
+}
+
+.buttons{
+     margin-top: 20px;
+     cursor: pointer;
+     width: 88px;
+     display: flex;
+     font-size: medium;
+}
+
+/* margin top */
+
+.buttons button {
+    padding: 9px 14px;
+    border-radius: 15px;
+    color: black;
+    background-color: rgb(147, 152, 195);
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 3px;
+    cursor: pointer;
+
+}
+
+.buttons button:hover{
+    background-color: whitesmoke;
+    color: blue;
+}
+
+.contactforms {
+    padding-top: 144px;
+    padding: 34px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+.contactforms h1{
+    text-align: center;
+    padding-bottom: 120px;
+    font-size: 40px;
+
+}
+
+.contactforms form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+} 
+
+.contactforms form div input{
+    width:  500px;
+    border-radius: 5px;
+    margin:  6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 8px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+
+#form-check input{
+    width: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    margin:  1px 0 0 0;
+    padding: 3px;
+
+}
+
+#form-check{
+    flex-direction: row;
+
+}
+
+.form-check-label{
+    padding: 5px;
+    
+}
+
+.form-check .buttons button{
+    padding: 9px 14px;
+    border-radius: 15px;
+    color: black;
+    background-color: rgb(147, 152, 195);
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
